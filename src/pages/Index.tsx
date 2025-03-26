@@ -9,6 +9,7 @@ import InsiderThreatChallenge from '../components/InsiderThreatChallenge';
 import { useGameContext } from '../context/GameContext';
 import LevelTransition from '../components/LevelTransition';
 import { AnimatePresence, motion } from 'framer-motion';
+import { Mail, Lock, User } from 'lucide-react';
 
 const GameContent = () => {
   const { currentLevel, setCurrentLevel } = useGameContext();
